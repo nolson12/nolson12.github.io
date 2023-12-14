@@ -1,0 +1,100 @@
+---
+title: "Spotify"
+author: "Noah Olson"
+date: "2023-12-10"
+categories: [Spotify, code, analysis]
+image: "SpotifyPNG.png"
+
+execute: 
+  warning: false
+  message: false
+  
+toc: true
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+
+Let's analyze the `spotify_all` data:
+
+```{r}
+spotify_all <- read_csv("https://bcdanl.github.io/data/spotify_all.csv")
+```
+
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(spotify_all) 
+```
+
+
+## Variable Description for `spotify_all` data.frame
+
+The following describes the variables in the `spotify_all` data.frame.
+
+
+* `pid`: playlist ID; unique ID for playlist
+
+* `playlist_name`: a name of playlist
+
+* `pos`: a position of the track within a playlist (starting from 0)
+
+* `artist_name`: name of the track’s primary artist
+
+* `track_name`: name of the track
+
+* `duration_ms`: duration of the track in milliseconds
+
+* `album_name`: name of the track’s album
+
+
+## Q1c.
+* Provide both (1) ggplot codes and (2) a couple of sentences to describe the relationship between pos and the ten most popular artists.
+
+```{r}
+Q1c <- spotify_all %>% 
+  group_by(artist_name) %>% 
+  mutate(n_popular_artist = n()) %>% 
+  ungroup() %>% 
+  mutate( artist_ranking = dense_rank( desc(n_popular_artist) ) ) %>% 
+  filter( artist_ranking <= 10) 
+ggplot(Q1c,
+       aes(x = pos, y = fct_reorder(artist_name, -artist_ranking)) ) +
+  geom_boxplot() +
+  stat_summary(
+    fun = mean,
+    color = 'red'
+  )
+```
+
+## Histogram
+
+```{r}
+ggplot(Q1c) +
+  geom_histogram(aes(x = pos, fill = artist_name), binwidth = 1, position = "dodge") +
+  facet_wrap(~artist_name, scales = "free") +
+  labs(title = "Distribution of pos for the Ten Most Popular Artists",
+       x = "pos",
+       y = "Frequency") +
+  theme_minimal()
+```
+ 

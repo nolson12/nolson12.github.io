@@ -79,30 +79,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "YOUR NAME",
+    "title": "Noah Olson",
     "section": "",
-    "text": "Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "Noah Olson majors in Accounting at SUNY Geneseo. When not working on data analytics, Noah enjoys spending time golfing and hanging out with his friends and family"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "YOUR NAME",
+    "title": "Noah Olson",
     "section": "Education",
-    "text": "Education\nState University of New York at Geneseo | Geneseo, NY  B.S. in Data Analytics | Aug 2022 - May 2026  Minor in Business Administration"
+    "text": "Education\nState University of New York at Geneseo | Geneseo, NY  B.S. in Accounting | Aug 2020 - May 2024"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "YOUR NAME",
+    "title": "Noah Olson",
     "section": "Experience",
-    "text": "Experience\nStarbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024"
+    "text": "Experience\nConstellation Brands | Global Accounting Team Intern | May 2023 - Current  Deloitte | Tax Intern | May 2024 - August 2024"
   },
   {
     "objectID": "blog-listing.html",
     "href": "blog-listing.html",
     "title": "Insightful Analytics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nBeer Markets\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nByeong-Hak Choe\n\n\n8 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYOUR NAME\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nYOUR NAME\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nSpotify\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nNoah Olson\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nRestaurant\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nNoah Olson\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nNFL in 2022\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nNoah Olson\n\n\n8 min\n\n\n\n\n\n\n  \n\n\n\n\nBeerMarkets\n\n\n\n\n\n\n\n\n\nDec 10, 2023\n\n\nNoah Olson\n\n\n6 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nYOUR NAME\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "project.html",
@@ -116,7 +116,7 @@
     "href": "project.html#summary-statistics",
     "title": "DANL Project",
     "section": "2.1 Summary Statistics",
-    "text": "2.1 Summary Statistics\n\nmpg <- ggplot2::mpg\n\n\n\n\n  \n\n\n\nskim(mpg) %>% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nmpg\n\n\nNumber of rows\n234\n\n\nNumber of columns\n11\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n6\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nmanufacturer\n1\n4\n10\n0\n15\n0\n\n\nmodel\n1\n2\n22\n0\n38\n0\n\n\ntrans\n1\n8\n10\n0\n10\n0\n\n\ndrv\n1\n1\n1\n0\n3\n0\n\n\nfl\n1\n1\n1\n0\n5\n0\n\n\nclass\n1\n3\n10\n0\n7\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\ndispl\n1\n3.47\n1.29\n1.6\n2.4\n3.3\n4.6\n7\n▇▆▆▃▁\n\n\nyear\n1\n2003.50\n4.51\n1999.0\n1999.0\n2003.5\n2008.0\n2008\n▇▁▁▁▇\n\n\ncyl\n1\n5.89\n1.61\n4.0\n4.0\n6.0\n8.0\n8\n▇▁▇▁▇\n\n\ncty\n1\n16.86\n4.26\n9.0\n14.0\n17.0\n19.0\n35\n▆▇▃▁▁\n\n\nhwy\n1\n23.44\n5.95\n12.0\n18.0\n24.0\n27.0\n44\n▅▅▇▁▁"
+    "text": "2.1 Summary Statistics\n\nmpg &lt;- ggplot2::mpg\n\n\n\n\n  \n\n\n\nskim(mpg) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nmpg\n\n\nNumber of rows\n234\n\n\nNumber of columns\n11\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n6\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\nskim_variable\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nmanufacturer\n1\n4\n10\n0\n15\n0\n\n\nmodel\n1\n2\n22\n0\n38\n0\n\n\ntrans\n1\n8\n10\n0\n10\n0\n\n\ndrv\n1\n1\n1\n0\n3\n0\n\n\nfl\n1\n1\n1\n0\n5\n0\n\n\nclass\n1\n3\n10\n0\n7\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\ndispl\n1\n3.47\n1.29\n1.6\n2.4\n3.3\n4.6\n7\n▇▆▆▃▁\n\n\nyear\n1\n2003.50\n4.51\n1999.0\n1999.0\n2003.5\n2008.0\n2008\n▇▁▁▁▇\n\n\ncyl\n1\n5.89\n1.61\n4.0\n4.0\n6.0\n8.0\n8\n▇▁▇▁▇\n\n\ncty\n1\n16.86\n4.26\n9.0\n14.0\n17.0\n19.0\n35\n▆▇▃▁▁\n\n\nhwy\n1\n23.44\n5.95\n12.0\n18.0\n24.0\n27.0\n44\n▅▅▇▁▁"
   },
   {
     "objectID": "project.html#mpg-and-a-type-of-cars",
@@ -124,5 +124,264 @@
     "title": "DANL Project",
     "section": "2.2 MPG and a Type of Cars",
     "text": "2.2 MPG and a Type of Cars\nThe following boxplot shows how the distribution of highway MPG (hwy) varies by a type of cars (class) 🚙 🚚 🚐.\n\nggplot(data = mpg) +\n  geom_boxplot(aes(x = class, y = hwy, fill = class),\n               show.legend = F) +\n  labs(x = \"Class\", y = \"Highway\\nMPG\")"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html",
+    "href": "posts/Spotify/Spotify.html",
+    "title": "Spotify",
+    "section": "",
+    "text": "Let’s analyze the starwars data:\nstarwars &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html#variable-description-for-starwars-data.frame",
+    "href": "posts/Spotify/Spotify.html#variable-description-for-starwars-data.frame",
+    "title": "Spotify",
+    "section": "Variable Description for starwars data.frame",
+    "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
+  },
+  {
+    "objectID": "posts/Spotify/Spotify.html#human-vs.-droid",
+    "href": "posts/Spotify/Spotify.html#human-vs.-droid",
+    "title": "Spotify",
+    "section": "Human vs. Droid",
+    "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html",
+    "href": "posts/Beer Markets/BeerMarkets.html",
+    "title": "BeerMarkets",
+    "section": "",
+    "text": "Let’s analyze the beer_mkts data:\nbeer_mkts &lt;- read_csv('https://bcdanl.github.io/data/beer_markets.csv')"
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#variable-description-for-starwars-data.frame",
+    "href": "posts/Beer Markets/BeerMarkets.html#variable-description-for-starwars-data.frame",
+    "title": "BeerMarkets",
+    "section": "Variable Description for starwars data.frame",
+    "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#human-vs.-droid",
+    "href": "posts/Beer Markets/BeerMarkets.html#human-vs.-droid",
+    "title": "BeerMarkets",
+    "section": "Human vs. Droid",
+    "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
+  },
+  {
+    "objectID": "Classwork.html",
+    "href": "Classwork.html",
+    "title": "Classwork",
+    "section": "",
+    "text": "1 Loading R packages\nAbout this project 👏\n\nlibrary(tidyverse)\nlibrary(skimr)\n\n\n\n2 Question 1 - Billboard Charts\n\nThe following data is for Question 1:\n\n\nbillboard &lt;- read_csv('https://bcdanl.github.io/data/billboard.csv')\n\n\n\n3 Q1a.\n\nDescribe how the distribution of rating varies across week 1, week 2, and week 3 using the faceted histogram.\n\n#Q1b. * Which artist(s) have the most number of tracks in billboard data.frame? * Do not double-count an artist’s tracks if they appear in multiple weeks.\n#Q1c."
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#variable-description-for-beer_markets-data.frame",
+    "href": "posts/Beer Markets/BeerMarkets.html#variable-description-for-beer_markets-data.frame",
+    "title": "BeerMarkets",
+    "section": "Variable Description for Beer_Markets data.frame",
+    "text": "Variable Description for Beer_Markets data.frame\nThe following describes the variables in the Beer_Markets data.frame.\n\nhh: an identifier of the household;\nX_purchase_desc: details on the purchased item;\nquantity: the number of items purchased;\nbrand: Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light;\ndollar_spent: total dollar value of purchase;\nbeer_floz: total volume of beer, in fluid ounces;\nprice_per_floz: price per fl.oz. (i.e., beer spent/beer floz);\ncontainer: the type of container;\npromo: Whether the item was promoted (coupon or otherwise);\nmarket: Scan-track market (or state if rural); demographic data, including gender, marital status, household income, class of work, race, education, age, the size of household, and whether or not the household has a microwave or a dishwasher."
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#q2a.",
+    "href": "posts/Beer Markets/BeerMarkets.html#q2a.",
+    "title": "BeerMarkets",
+    "section": "Q2a.",
+    "text": "Q2a.\n\nFind the top 5 markets in terms of the total beer_floz.\nFind the top 5 markets in terms of the total beer_floz of BUD LIGHT.\nFind the top 5 markets in terms of the total beer_floz of BUSCH LIGHT.\nFind the top 5 markets in terms of the total beer_floz of COORS LIGHT.\nFind the top 5 markets in terms of the total beer_floz of MILLER LITE.\nFind the top 5 markets in terms of the total beer_floz of NATURAL LIGHT.\n\n\nQ2a1 &lt;- beer_mkts %&gt;% \n   group_by(market) %&gt;% \n   summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n   arrange(-beer_floz_tot) %&gt;% \n   slice(1:5)\n\nQ2a_bud &lt;- beer_mkts %&gt;% \n  filter(brand == \"BUD LIGHT\") %&gt;% \n  group_by(market) %&gt;% \n  summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n  arrange(-beer_floz_tot) %&gt;% \n  slice(1:5)\n\nQ2a_busch &lt;- beer_mkts %&gt;% \n  filter(brand == \"BUSCH LIGHT\") %&gt;% \n  group_by(market) %&gt;% \n  summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n  arrange(-beer_floz_tot) %&gt;% \n  slice(1:5)\n\nQ2a_coors &lt;- beer_mkts %&gt;% \n  filter(brand == \"COORS LIGHT\") %&gt;% \n  group_by(market) %&gt;% \n  summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n  arrange(-beer_floz_tot) %&gt;% \n  slice(1:5)\n\nQ2a_miller &lt;- beer_mkts %&gt;% \n  filter(brand == \"MILLER LITE\") %&gt;% \n  group_by(market) %&gt;% \n  summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n  arrange(-beer_floz_tot) %&gt;% \n  slice(1:5)\n\nQ2a_natural &lt;- beer_mkts %&gt;% \n  filter(brand == \"NATURAL LIGHT\") %&gt;% \n  group_by(market) %&gt;% \n  summarize(beer_floz_tot = sum(beer_floz, na.rm = T)) %&gt;% \n  arrange(-beer_floz_tot) %&gt;% \n  slice(1:5)"
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#q2b.",
+    "href": "posts/Beer Markets/BeerMarkets.html#q2b.",
+    "title": "BeerMarkets",
+    "section": "Q2b.",
+    "text": "Q2b.\n\nFor households that purchased BUD LIGHT at least once, what fraction of households did purchase only BUD LIGHT?\nFor households that purchased BUSCH LIGHT at least once, what fraction of households did purchase only BUSCH LIGHT?\nFor households that purchased COORS LIGHT at least once, what fraction of households did purchase only COORS LIGHT?\nFor households that purchased MILLER LITE at least once, what fraction of households did purchase only MILLER LITE?\nFor households that purchased NATURAL LIGHT at least once, what fraction of households did purchase only NATURAL LIGHT?\nWhich beer brand does have the largest proportion of such loyal consumers?\n\n\nq2b &lt;- beer_mkts %&gt;% \n  mutate(bud = ifelse(brand==\"BUD LIGHT\", 1, 0),\n         busch = ifelse(brand==\"BUSCH LIGHT\", 1, 0),\n         coors = ifelse(brand==\"COORS LIGHT\", 1, 0),\n         miller = ifelse(brand==\"MILLER LITE\", 1, 0),\n         natural = ifelse(brand==\"NATURAL LIGHT\", 1, 0),\n         .after = hh) %&gt;% \n  select(hh:natural) %&gt;% \n  group_by(hh) %&gt;% \n  summarise(n_transactions = n(), \n            n_bud = sum(bud), \n            n_busch = sum(busch), \n            n_coors = sum(coors), \n            n_miller = sum(miller), \n            n_natural = sum(natural) \n  ) %&gt;% \n  summarise(loyal_bud = sum(n_transactions == n_bud) / sum(n_bud &gt; 0), \n            loyal_busch = sum(n_transactions == n_busch) / sum(n_busch &gt; 0),\n            loyal_coors = sum(n_transactions == n_coors) / sum(n_coors &gt; 0),\n            loyal_miller = sum(n_transactions == n_miller) / sum(n_miller &gt; 0),\n            loyal_natural = sum(n_transactions == n_natural) / sum(n_natural &gt; 0)\n  )\nq2b\n\n# A tibble: 1 × 5\n  loyal_bud loyal_busch loyal_coors loyal_miller loyal_natural\n      &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;         &lt;dbl&gt;\n1     0.660       0.473       0.639        0.631         0.510"
+  },
+  {
+    "objectID": "posts/Beer Markets/BeerMarkets.html#q2c.",
+    "href": "posts/Beer Markets/BeerMarkets.html#q2c.",
+    "title": "BeerMarkets",
+    "section": "Q2c.",
+    "text": "Q2c.\n\nFor each household, calculate the number of beer transactions.\nFor each household, calculate the proportion of each beer brand choice.\n\n\nq2c &lt;- beer_mkts %&gt;% \n  count(hh, brand) %&gt;% \n  group_by(hh) %&gt;% \n  mutate(n_tot = sum(n)) %&gt;%  \n  arrange(hh, brand) %&gt;% \n  mutate( prop = n / n_tot ) \nq2c\n\n# A tibble: 13,202 × 5\n# Groups:   hh [10,408]\n        hh brand           n n_tot  prop\n     &lt;dbl&gt; &lt;chr&gt;       &lt;int&gt; &lt;int&gt; &lt;dbl&gt;\n 1 2000235 BUD LIGHT       1     1 1    \n 2 2000417 COORS LIGHT     8     8 1    \n 3 2000711 COORS LIGHT    13    13 1    \n 4 2000946 BUD LIGHT       1     2 0.5  \n 5 2000946 MILLER LITE     1     2 0.5  \n 6 2001521 BUD LIGHT       6    11 0.545\n 7 2001521 COORS LIGHT     3    11 0.273\n 8 2001521 MILLER LITE     2    11 0.182\n 9 2001531 BUSCH LIGHT     1     1 1    \n10 2001581 BUSCH LIGHT     5     5 1    \n# ℹ 13,192 more rows"
+  },
+  {
+    "objectID": "posts/Restaurant/Restaurant.html",
+    "href": "posts/Restaurant/Restaurant.html",
+    "title": "Restaurant",
+    "section": "",
+    "text": "Let’s analyze the restaurant data:\nrestaurant &lt;- read_csv(\"https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\")"
+  },
+  {
+    "objectID": "posts/Restaurant/Restaurant.html#variable-description-for-restaurant-data.frame",
+    "href": "posts/Restaurant/Restaurant.html#variable-description-for-restaurant-data.frame",
+    "title": "Restaurant",
+    "section": "Variable Description for restaurant data.frame",
+    "text": "Variable Description for restaurant data.frame\nThe following describes the variables in the restaurant data.frame.\n\nCAMIS This is an unique identifier for the entity (restaurant); 10-digit integer\nBORO Borough in which the entity (restaurant) is located.; • 1 = MANHATTAN • 2 = BRONX • 3 = BROOKLYN • 4 = QUEENS • 5 = STATEN ISLAND • 0 = Missing;\nCUISINE DESCRIPTION This field describes the entity (restaurant) cuisine.\nACTION This field represents the actions that is associated with each restaurant inspection. ; • Violations were cited in the following area(s). • No violations were recorded at the time of this inspection. • Establishment re-opened by DOHMH • Establishment re-closed by DOHMH • Establishment Closed by DOHMH. • Violations were cited in the following area(s) and those requiring immediate action were addressed.\nVIOLATION CODE Violation code associated with an establishment (restaurant) inspection\nVIOLATION DESCRIPTION Violation description associated with an establishment (restaurant) inspection\nCRITICAL FLAG Indicator of critical violation; • Critical • Not Critical • Not Applicable; Critical violations are those most likely to contribute to food-borne illness\nSCORE Total score for a particular inspection;\nGRADE Grade associated with the inspection; • N = Not Yet Graded • A = Grade A • B = Grade B • C = Grade C • Z = Grade Pending • P = Grade Pending issued on re-opening following an initial inspection that resulted in a closure"
+  },
+  {
+    "objectID": "posts/Restaurant/Restaurant.html#q1c.",
+    "href": "posts/Restaurant/Restaurant.html#q1c.",
+    "title": "Restaurant",
+    "section": "Q1c.",
+    "text": "Q1c.\n\nProvide both (1) ggplot code and (2) a simple comment to describe how the distribution of SCORE varies by GRADE and CRITICAL FLAG.\n\n\nggplot(restaurant) +\n  geom_boxplot(aes(x = SCORE, y = GRADE, fill = GRADE) ) +\n  facet_grid( `CRITICAL FLAG` ~ . )\n\n\n\n\n\nHistograms\n\n\nggplot(restaurant) +\n  geom_histogram(aes(x = SCORE), binwidth = 1 ) +\n  facet_grid( `CRITICAL FLAG` ~ GRADE )\n\n\n\n\n\nHistograms with varying x- and y- scales across facets\n\n\nggplot(restaurant) +\n  geom_histogram(aes(x = SCORE), binwidth = 1 ) +\n  facet_wrap( `CRITICAL FLAG` ~ GRADE, scales = 'free' )"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html",
+    "href": "posts/NFL in 2022/NFL IN 2022.html",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Let’s analyze the NFL2022_stuffs data:\n\nNFL2022_stuffs &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_stuffs.csv')\n\nrmarkdown::paged_table(NFL2022_stuffs) \n\n\n\n  \n\n\n\n\nThe following describes the variables in the NFL2022_stuffs data.frame.\n\nplay_id Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id Ten digit identifier for NFL game\ndrive Numeric drive number in the game\nweek Season week\nposteam String abbreviation for the team with possession.\nqtr Quarter of the game (5 is overtime).\nhalf_seconds_remaining Numeric seconds remaining in the half.\ndown The down for the given play. Basically you get four attempts (aka downs) to move the ball 10 yards (by either running with it or passing it). If you make 10 yards then you get another set of four downs.\npass Binary indicator if the play was a pass play.\nwp Estimated winning probability for the posteam given the current situation at the start of the given play.\n\n\n\n\n\nIn data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing.\n\n\nNFL2022_stuffs_filtered &lt;- NFL2022_stuffs %&gt;% filter(!is.na(posteam))\n\nprint(NFL2022_stuffs_filtered)\n\n# A tibble: 46,427 × 10\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1      43 2022_01…     1     1 NYJ         1    NA                   1800     0\n 2      68 2022_01…     1     1 NYJ         1     1                   1796     0\n 3      89 2022_01…     1     1 NYJ         1     1                   1769     1\n 4     115 2022_01…     1     1 NYJ         1     2                   1765     0\n 5     136 2022_01…     1     1 NYJ         1     3                   1741     1\n 6     172 2022_01…     1     1 NYJ         1     4                   1733     0\n 7     202 2022_01…     2     1 BAL         1     1                   1722     1\n 8     230 2022_01…     2     1 BAL         1     2                   1701     1\n 9     254 2022_01…     2     1 BAL         1     3                   1661     0\n10     275 2022_01…     2     1 BAL         1     1                   1621     0\n# ℹ 46,417 more rows\n# ℹ 1 more variable: wp &lt;dbl&gt;\n\n\n\n\n\n\nSummarize the mean value of pass for each posteam when all the following conditions hold:\n\nwp is greater than 20% and less than 75%;\ndown is less than or equal to 2; and\nhalf_seconds_remaining is greater than 120.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nprint(summary_data)\n\n# A tibble: 32 × 2\n   posteam mean_pass\n   &lt;chr&gt;       &lt;dbl&gt;\n 1 ARI         0.553\n 2 ATL         0.4  \n 3 BAL         0.520\n 4 BUF         0.604\n 5 CAR         0.458\n 6 CHI         0.420\n 7 CIN         0.657\n 8 CLE         0.491\n 9 DAL         0.474\n10 DEN         0.493\n# ℹ 22 more rows\n\n\n\n\n\n\nProvide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam.\n\nIn the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nsummary_data &lt;- summary_data %&gt;%\n  arrange(mean_pass)\nggplot(summary_data, aes(x = mean_pass, y = reorder(posteam, mean_pass))) +\n  geom_point() +\n  labs(title = \"Mean Value of pass for Each posteam\",\n       x = \"Percentage of pass plays\",\n       y = \"Team with possession\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\nEvery NFL team falls somewhere within the .45 to .55 range. Washington runs the lowest percentage of pass plays while Cincinnati runs the highest percentage.\n\n\n\n\n\n\nConsider the following data.frame, NFL2022_epa:\n\n\nNFL2022_epa &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\n\nrmarkdown::paged_table(NFL2022_epa) \n\n\n\n  \n\n\n\nVariable description for NFL2022_epa\n\nplay_id: Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id: Ten digit identifier for NFL game. drive: Numeric drive number in the game.\nposteam: String abbreviation for the team with possession. passer: Name of the player who passed a ball to a receiver by initially taking a three-step drop and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks)\nreceiver: Name of the receiver.\nepa: Expected points added (EPA) by the posteam for the given play.\n\nCreate the data.frame, NFL2022_stuffs_EPA, that includes\n\nAll the variables in the data.frame, NFL2022_stuffs;\nThe variables, passer, receiver, and epa, from the data.frame, NFL2022_epa. by joining the two data.frames.\n\nIn the resulting data.frame, NFL2022_stuffs_EPA, remove observations with NA in passer.\n\n\nNFL2022_stuffs_EPA &lt;- left_join(NFL2022_stuffs, NFL2022_epa %&gt;% select(game_id, passer, receiver, epa), by = \"game_id\")\nNFL2022_stuffs_EPA &lt;- NFL2022_stuffs_EPA %&gt;% filter(!is.na(passer))\nprint(NFL2022_stuffs_EPA)\n\n# A tibble: 3,997,285 × 13\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 2       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 3       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 4       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 5       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 6       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 7       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 8       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 9       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n10       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n# ℹ 3,997,275 more rows\n# ℹ 4 more variables: wp &lt;dbl&gt;, passer &lt;chr&gt;, receiver &lt;chr&gt;, epa &lt;dbl&gt;\n\n\n\n\n\n\nProvide both (1) a single ggplot and (2) a simple comment to describe the NFL weekly trend of weekly mean value of epa for each of the following two passers,\n\n\"J.Allen\"\n\"P.Mahomes\"\n\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nfiltered_data &lt;- filtered_data %&gt;%\n  mutate(week_group = cut(as.numeric(week), breaks = seq(1, max(as.numeric(week)) + 5, by = 5), include.lowest = TRUE))\nfiltered_data$week_group &lt;- factor(filtered_data$week_group, levels = unique(filtered_data$week_group))\nmean_epa_by_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\nggplot(mean_epa_by_week, aes(x = week, y = mean_epa, group = passer, color = passer)) +\n  geom_line() +\n  geom_point() +\n  labs(title = \"Mean EPA Comparison for J.Allen and P.Mahomes\",\n       x = \"Week\",\n       y = \"Mean EPA\",\n       color = \"Passer\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\n‘J. Allen’ and ‘P. Mahomes’ exhibit distinct patterns, and the graph provides a clear comparison of their respective performances over the weeks, highlighting any notable differences or similarities in mean EPA values.”\n\n\n\n\n\n\nCalculate the difference between the mean value of epa for \"J.Allen\" the mean value of epa for \"P.Mahomes\" for each value of week.\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nmean_epa_by_passer_and_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\nwide_data &lt;- mean_epa_by_passer_and_week %&gt;%\n  pivot_wider(names_from = passer, values_from = mean_epa)\nwide_data &lt;- wide_data %&gt;%\n  mutate(epa_difference = `J.Allen` - `P.Mahomes`)\nprint(wide_data)\n\n# A tibble: 22 × 4\n    week J.Allen P.Mahomes epa_difference\n   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;          &lt;dbl&gt;\n 1     1   0.530    0.698         -0.169 \n 2     2   0.487    0.148          0.339 \n 3     3   0.169    0.246         -0.0763\n 4     4   0.191    0.271         -0.0803\n 5     5   0.627    0.302          0.325 \n 6     6   0.307    0.133          0.173 \n 7     8   0.224   NA             NA     \n 8     9  -0.208    0.0965        -0.304 \n 9    10   0.161    0.589         -0.429 \n10    11   0.192    0.365         -0.173 \n# ℹ 12 more rows\n\n\n\n\n\n\nSummarize the resulting data.frame in Q2d, with the following four variables:\n\nposteam: String abbreviation for the team with possession.\npasser: Name of the player who passed a ball to a receiver by initially taking a three-step drop, and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks.)\nmean_epa: Mean value of epa in 2022 for each passer\nn_pass: Number of observations for each passer\n\nThen find the top 10 NFL passers in 2022 in terms of the mean value of epa, conditioning that n_pass must be greater than or equal to the third quantile level of n_pass.\n\n\nsummary_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  group_by(posteam, passer) %&gt;%\n  summarize(\n    mean_epa = mean(epa, na.rm = TRUE),\n    n_pass = n(),\n    .groups = 'drop'\n  )\nquantile_threshold &lt;- quantile(summary_data$n_pass, 0.75)\ntop_passers &lt;- summary_data %&gt;%\n  filter(n_pass &gt;= quantile_threshold) %&gt;%\n  top_n(10, mean_epa)\nprint(top_passers)\n\n# A tibble: 10 × 4\n   posteam passer      mean_epa n_pass\n   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;  &lt;int&gt;\n 1 BUF     J.Brissett     0.442   4160\n 2 CAR     J.Goff         0.359   4400\n 3 CHI     J.Goff         0.475   4711\n 4 CHI     K.Cousins      0.479   4198\n 5 IND     T.Lawrence     0.324   4961\n 6 JAX     P.Mahomes      0.455   5862\n 7 LA      J.Garoppolo    0.460   4452\n 8 MIN     J.Goff         0.289   7105\n 9 SEA     B.Purdy        0.477   5351\n10 TEN     T.Lawrence     0.296   6798"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#variable-description-for-starwars-data.frame",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#variable-description-for-starwars-data.frame",
+    "title": "NFL in 2022",
+    "section": "Variable Description for starwars data.frame",
+    "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#human-vs.-droid",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#human-vs.-droid",
+    "title": "NFL in 2022",
+    "section": "Human vs. Droid",
+    "text": "Human vs. Droid\n\nggplot(data = \n         starwars %&gt;% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#variable-description-for-nfl2022_stuffs-data.frame",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#variable-description-for-nfl2022_stuffs-data.frame",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "The following describes the variables in the NFL2022_stuffs data.frame.\n\nplay_id Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id Ten digit identifier for NFL game\ndrive Numeric drive number in the game\nweek Season week\nposteam String abbreviation for the team with possession.\nqtr Quarter of the game (5 is overtime).\nhalf_seconds_remaining Numeric seconds remaining in the half.\ndown The down for the given play. Basically you get four attempts (aka downs) to move the ball 10 yards (by either running with it or passing it). If you make 10 yards then you get another set of four downs.\npass Binary indicator if the play was a pass play.\nwp Estimated winning probability for the posteam given the current situation at the start of the given play."
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2a",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2a",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "In data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing.\n\n\nNFL2022_stuffs_filtered &lt;- NFL2022_stuffs %&gt;% filter(!is.na(posteam))\n\nprint(NFL2022_stuffs_filtered)\n\n# A tibble: 46,427 × 10\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1      43 2022_01…     1     1 NYJ         1    NA                   1800     0\n 2      68 2022_01…     1     1 NYJ         1     1                   1796     0\n 3      89 2022_01…     1     1 NYJ         1     1                   1769     1\n 4     115 2022_01…     1     1 NYJ         1     2                   1765     0\n 5     136 2022_01…     1     1 NYJ         1     3                   1741     1\n 6     172 2022_01…     1     1 NYJ         1     4                   1733     0\n 7     202 2022_01…     2     1 BAL         1     1                   1722     1\n 8     230 2022_01…     2     1 BAL         1     2                   1701     1\n 9     254 2022_01…     2     1 BAL         1     3                   1661     0\n10     275 2022_01…     2     1 BAL         1     1                   1621     0\n# ℹ 46,417 more rows\n# ℹ 1 more variable: wp &lt;dbl&gt;"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2b.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2b.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Summarize the mean value of pass for each posteam when all the following conditions hold:\n\nwp is greater than 20% and less than 75%;\ndown is less than or equal to 2; and\nhalf_seconds_remaining is greater than 120.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nprint(summary_data)\n\n# A tibble: 32 × 2\n   posteam mean_pass\n   &lt;chr&gt;       &lt;dbl&gt;\n 1 ARI         0.553\n 2 ATL         0.4  \n 3 BAL         0.520\n 4 BUF         0.604\n 5 CAR         0.458\n 6 CHI         0.420\n 7 CIN         0.657\n 8 CLE         0.491\n 9 DAL         0.474\n10 DEN         0.493\n# ℹ 22 more rows"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2c.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2c.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Provide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam.\n\nIn the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nsummary_data &lt;- summary_data %&gt;%\n  arrange(mean_pass)\nggplot(summary_data, aes(x = mean_pass, y = reorder(posteam, mean_pass))) +\n  geom_point() +\n  labs(title = \"Mean Value of pass for Each posteam\",\n       x = \"Percentage of pass plays\",\n       y = \"Team with possession\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\nEvery NFL team falls somewhere within the .45 to .55 range. Washington runs the lowest percentage of pass plays while Cincinnati runs the highest percentage."
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2d.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2d.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Consider the following data.frame, NFL2022_epa:\n\n\nNFL2022_epa &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\n\nrmarkdown::paged_table(NFL2022_epa) \n\n\n\n  \n\n\n\nVariable description for NFL2022_epa\n\nplay_id: Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id: Ten digit identifier for NFL game. drive: Numeric drive number in the game.\nposteam: String abbreviation for the team with possession. passer: Name of the player who passed a ball to a receiver by initially taking a three-step drop and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks)\nreceiver: Name of the receiver.\nepa: Expected points added (EPA) by the posteam for the given play.\n\nCreate the data.frame, NFL2022_stuffs_EPA, that includes\n\nAll the variables in the data.frame, NFL2022_stuffs;\nThe variables, passer, receiver, and epa, from the data.frame, NFL2022_epa. by joining the two data.frames.\n\nIn the resulting data.frame, NFL2022_stuffs_EPA, remove observations with NA in passer.\n\n\nNFL2022_stuffs_EPA &lt;- left_join(NFL2022_stuffs, NFL2022_epa %&gt;% select(game_id, passer, receiver, epa), by = \"game_id\")\nNFL2022_stuffs_EPA &lt;- NFL2022_stuffs_EPA %&gt;% filter(!is.na(passer))\nprint(NFL2022_stuffs_EPA)\n\n# A tibble: 3,997,285 × 13\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 2       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 3       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 4       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 5       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 6       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 7       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 8       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 9       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n10       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n# ℹ 3,997,275 more rows\n# ℹ 4 more variables: wp &lt;dbl&gt;, passer &lt;chr&gt;, receiver &lt;chr&gt;, epa &lt;dbl&gt;"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2e.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2e.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Provide both (1) a single ggplot and (2) a simple comment to describe the NFL weekly trend of weekly mean value of epa for each of the following two passers,\n\n\"J.Allen\"\n\"P.Mahomes\"\n\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nfiltered_data &lt;- filtered_data %&gt;%\n  mutate(week_group = cut(as.numeric(week), breaks = seq(1, max(as.numeric(week)) + 5, by = 5), include.lowest = TRUE))\nfiltered_data$week_group &lt;- factor(filtered_data$week_group, levels = unique(filtered_data$week_group))\nmean_epa_by_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\nggplot(mean_epa_by_week, aes(x = week, y = mean_epa, group = passer, color = passer)) +\n  geom_line() +\n  geom_point() +\n  labs(title = \"Mean EPA Comparison for J.Allen and P.Mahomes\",\n       x = \"Week\",\n       y = \"Mean EPA\",\n       color = \"Passer\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\n‘J. Allen’ and ‘P. Mahomes’ exhibit distinct patterns, and the graph provides a clear comparison of their respective performances over the weeks, highlighting any notable differences or similarities in mean EPA values.”"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2f.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2f.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Calculate the difference between the mean value of epa for \"J.Allen\" the mean value of epa for \"P.Mahomes\" for each value of week.\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nmean_epa_by_passer_and_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\nwide_data &lt;- mean_epa_by_passer_and_week %&gt;%\n  pivot_wider(names_from = passer, values_from = mean_epa)\nwide_data &lt;- wide_data %&gt;%\n  mutate(epa_difference = `J.Allen` - `P.Mahomes`)\nprint(wide_data)\n\n# A tibble: 22 × 4\n    week J.Allen P.Mahomes epa_difference\n   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;          &lt;dbl&gt;\n 1     1   0.530    0.698         -0.169 \n 2     2   0.487    0.148          0.339 \n 3     3   0.169    0.246         -0.0763\n 4     4   0.191    0.271         -0.0803\n 5     5   0.627    0.302          0.325 \n 6     6   0.307    0.133          0.173 \n 7     8   0.224   NA             NA     \n 8     9  -0.208    0.0965        -0.304 \n 9    10   0.161    0.589         -0.429 \n10    11   0.192    0.365         -0.173 \n# ℹ 12 more rows"
+  },
+  {
+    "objectID": "posts/NFL in 2022/NFL IN 2022.html#q2g.",
+    "href": "posts/NFL in 2022/NFL IN 2022.html#q2g.",
+    "title": "NFL in 2022",
+    "section": "",
+    "text": "Summarize the resulting data.frame in Q2d, with the following four variables:\n\nposteam: String abbreviation for the team with possession.\npasser: Name of the player who passed a ball to a receiver by initially taking a three-step drop, and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks.)\nmean_epa: Mean value of epa in 2022 for each passer\nn_pass: Number of observations for each passer\n\nThen find the top 10 NFL passers in 2022 in terms of the mean value of epa, conditioning that n_pass must be greater than or equal to the third quantile level of n_pass.\n\n\nsummary_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  group_by(posteam, passer) %&gt;%\n  summarize(\n    mean_epa = mean(epa, na.rm = TRUE),\n    n_pass = n(),\n    .groups = 'drop'\n  )\nquantile_threshold &lt;- quantile(summary_data$n_pass, 0.75)\ntop_passers &lt;- summary_data %&gt;%\n  filter(n_pass &gt;= quantile_threshold) %&gt;%\n  top_n(10, mean_epa)\nprint(top_passers)\n\n# A tibble: 10 × 4\n   posteam passer      mean_epa n_pass\n   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;  &lt;int&gt;\n 1 BUF     J.Brissett     0.442   4160\n 2 CAR     J.Goff         0.359   4400\n 3 CHI     J.Goff         0.475   4711\n 4 CHI     K.Cousins      0.479   4198\n 5 IND     T.Lawrence     0.324   4961\n 6 JAX     P.Mahomes      0.455   5862\n 7 LA      J.Garoppolo    0.460   4452\n 8 MIN     J.Goff         0.289   7105\n 9 SEA     B.Purdy        0.477   5351\n10 TEN     T.Lawrence     0.296   6798"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html",
+    "href": "DANL 200 HW 5.html",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "",
+    "text": "Provide a link for your Github repository https://github.com/JaydenBalcarczyk/JaydenBalcarczyk.github.io\n\n\n\n\n\nMake sure that your GitHub repository, named YOUR_GITHUB_USERNAME.github.io, is set to public.✅\nUpdate your website at https://YOUR_GITHUB_USERNAME.github.io/index.html to:\nInclude links to (1) your LinkedIn page, (2) GitHub page (https://github.com/YOUR_GITHUB_USERNAME), and (3) a PDF file of your Rèsume (https://YOUR_GITHUB_USERNAME.github.io/YOUR_RESUME.pdf).✅\nOffer a description of yourself, detailing your education background and professional experience. + Display your own profile picture with your face, not the one shown below.✅\n\n\n\n\n\nChange the title of your blog.✅\nThat is, to replace Insightful Analytics with your own blog name. Remove the blog posts Post With Code, Starwars, and Beer Markets.✅\nRevise the Welcome To My Blog post.✅\nPost three different blog articles based on data analysis using the following three CSV files: ✅\n\n\nhttps://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\nhttps://bcdanl.github.io/data/spotify_all.csv\nhttps://bcdanl.github.io/data/beer_markets.csv - - Make sure that each blog post has categories and is associated with a proper image file that is displayed as a thumbnail at the list page of the blog. - Make sure that each blog post uses emojis properly. (E.g., 😄 🍺 🎶 🍕)✅\n\n\nMake sure that each blog post includes its thumbnail image and at least three ggplot figures.✅\nYou can refer to the previous DANL 200 Homework Assignments and Exams for your blog posts."
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q1a.",
+    "href": "DANL 200 HW 5.html#q1a.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "",
+    "text": "Provide a link for your Github repository https://github.com/JaydenBalcarczyk/JaydenBalcarczyk.github.io"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q1b.",
+    "href": "DANL 200 HW 5.html#q1b.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "",
+    "text": "Make sure that your GitHub repository, named YOUR_GITHUB_USERNAME.github.io, is set to public.✅\nUpdate your website at https://YOUR_GITHUB_USERNAME.github.io/index.html to:\nInclude links to (1) your LinkedIn page, (2) GitHub page (https://github.com/YOUR_GITHUB_USERNAME), and (3) a PDF file of your Rèsume (https://YOUR_GITHUB_USERNAME.github.io/YOUR_RESUME.pdf).✅\nOffer a description of yourself, detailing your education background and professional experience. + Display your own profile picture with your face, not the one shown below.✅"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q1c.",
+    "href": "DANL 200 HW 5.html#q1c.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "",
+    "text": "Change the title of your blog.✅\nThat is, to replace Insightful Analytics with your own blog name. Remove the blog posts Post With Code, Starwars, and Beer Markets.✅\nRevise the Welcome To My Blog post.✅\nPost three different blog articles based on data analysis using the following three CSV files: ✅\n\n\nhttps://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\nhttps://bcdanl.github.io/data/spotify_all.csv\nhttps://bcdanl.github.io/data/beer_markets.csv - - Make sure that each blog post has categories and is associated with a proper image file that is displayed as a thumbnail at the list page of the blog. - Make sure that each blog post uses emojis properly. (E.g., 😄 🍺 🎶 🍕)✅\n\n\nMake sure that each blog post includes its thumbnail image and at least three ggplot figures.✅\nYou can refer to the previous DANL 200 Homework Assignments and Exams for your blog posts."
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#variable-description-for-nfl2022_stuffs-data.frame",
+    "href": "DANL 200 HW 5.html#variable-description-for-nfl2022_stuffs-data.frame",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Variable Description for NFL2022_stuffs data.frame",
+    "text": "Variable Description for NFL2022_stuffs data.frame\nThe following describes the variables in the NFL2022_stuffs data.frame.\n\nplay_id Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id Ten digit identifier for NFL game\ndrive Numeric drive number in the game\nweek Season week\nposteam String abbreviation for the team with possession.\nqtr Quarter of the game (5 is overtime).\nhalf_seconds_remaining Numeric seconds remaining in the half.\ndown The down for the given play. Basically you get four attempts (aka downs) to move the ball 10 yards (by either running with it or passing it). If you make 10 yards then you get another set of four downs.\npass Binary indicator if the play was a pass play.\nwp Estimated winning probability for the posteam given the current situation at the start of the given play."
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2a.",
+    "href": "DANL 200 HW 5.html#q2a.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2a.",
+    "text": "Q2a.\n\nIn data.frame, NFL2022_stuffs, remove observations for which values of posteam is missing.\n\n\nNFL2022_stuffs_filtered &lt;- NFL2022_stuffs %&gt;% filter(!is.na(posteam))\n\nprint(NFL2022_stuffs_filtered)\n\n# A tibble: 46,427 × 10\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1      43 2022_01…     1     1 NYJ         1    NA                   1800     0\n 2      68 2022_01…     1     1 NYJ         1     1                   1796     0\n 3      89 2022_01…     1     1 NYJ         1     1                   1769     1\n 4     115 2022_01…     1     1 NYJ         1     2                   1765     0\n 5     136 2022_01…     1     1 NYJ         1     3                   1741     1\n 6     172 2022_01…     1     1 NYJ         1     4                   1733     0\n 7     202 2022_01…     2     1 BAL         1     1                   1722     1\n 8     230 2022_01…     2     1 BAL         1     2                   1701     1\n 9     254 2022_01…     2     1 BAL         1     3                   1661     0\n10     275 2022_01…     2     1 BAL         1     1                   1621     0\n# ℹ 46,417 more rows\n# ℹ 1 more variable: wp &lt;dbl&gt;"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2b.",
+    "href": "DANL 200 HW 5.html#q2b.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2b.",
+    "text": "Q2b.\n\nSummarize the mean value of pass for each posteam when all the following conditions hold:\n\nwp is greater than 20% and less than 75%;\ndown is less than or equal to 2; and\nhalf_seconds_remaining is greater than 120.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nprint(summary_data)\n\n# A tibble: 32 × 2\n   posteam mean_pass\n   &lt;chr&gt;       &lt;dbl&gt;\n 1 ARI         0.553\n 2 ATL         0.4  \n 3 BAL         0.520\n 4 BUF         0.604\n 5 CAR         0.458\n 6 CHI         0.420\n 7 CIN         0.657\n 8 CLE         0.491\n 9 DAL         0.474\n10 DEN         0.493\n# ℹ 22 more rows"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2c.",
+    "href": "DANL 200 HW 5.html#q2c.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2c.",
+    "text": "Q2c.\n\nProvide both (1) a ggplot code with geom_point() using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of pass for each posteam.\n\nIn the ggplot, reorder the posteam categories based on the mean value of pass in ascending or in descending order.\n\n\n\nfiltered_data &lt;- NFL2022_stuffs %&gt;%\n  filter(\n    wp &gt; 0.20 & wp &lt; 0.75,\n    down &lt;= 2,\n    half_seconds_remaining &gt; 120\n  )\nsummary_data &lt;- filtered_data %&gt;%\n  group_by(posteam) %&gt;%\n  summarize(mean_pass = mean(pass, na.rm = TRUE))\nsummary_data &lt;- summary_data %&gt;%\n  arrange(mean_pass)\nggplot(summary_data, aes(x = mean_pass, y = reorder(posteam, mean_pass))) +\n  geom_point() +\n  labs(title = \"Mean Value of pass for Each posteam\",\n       x = \"Percentage of pass plays\",\n       y = \"Team with possession\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\nEvery NFL team falls somewhere within the .45 to .55 range. Washington runs the lowest percentage of pass plays while Cincinnati runs the highest percentage."
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2d.",
+    "href": "DANL 200 HW 5.html#q2d.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2d.",
+    "text": "Q2d.\n\nConsider the following data.frame, NFL2022_epa:\n\n\nNFL2022_epa &lt;- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')\n\nRows: 46427 Columns: 7\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): game_id, posteam, receiver, passer\ndbl (3): play_id, drive, epa\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nrmarkdown::paged_table(NFL2022_epa) \n\n\n\n  \n\n\n\nVariable description for NFL2022_epa\n\nplay_id: Numeric play identifier that when used with game_id and drive provides the unique identifier for a single play\ngame_id: Ten digit identifier for NFL game. drive: Numeric drive number in the game.\nposteam: String abbreviation for the team with possession. passer: Name of the player who passed a ball to a receiver by initially taking a three-step drop and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks)\nreceiver: Name of the receiver.\nepa: Expected points added (EPA) by the posteam for the given play.\n\nCreate the data.frame, NFL2022_stuffs_EPA, that includes\n\nAll the variables in the data.frame, NFL2022_stuffs;\nThe variables, passer, receiver, and epa, from the data.frame, NFL2022_epa. by joining the two data.frames.\n\nIn the resulting data.frame, NFL2022_stuffs_EPA, remove observations with NA in passer.\n\n\nNFL2022_stuffs_EPA &lt;- left_join(NFL2022_stuffs, NFL2022_epa %&gt;% select(game_id, passer, receiver, epa), by = \"game_id\")\n\nWarning in left_join(NFL2022_stuffs, NFL2022_epa %&gt;% select(game_id, passer, : Detected an unexpected many-to-many relationship between `x` and `y`.\nℹ Row 1 of `x` matches multiple rows in `y`.\nℹ Row 1 of `y` matches multiple rows in `x`.\nℹ If a many-to-many relationship is expected, set `relationship =\n  \"many-to-many\"` to silence this warning.\n\nNFL2022_stuffs_EPA &lt;- NFL2022_stuffs_EPA %&gt;% filter(!is.na(passer))\nprint(NFL2022_stuffs_EPA)\n\n# A tibble: 3,997,285 × 13\n   play_id game_id  drive  week posteam   qtr  down half_seconds_remaining  pass\n     &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;                  &lt;dbl&gt; &lt;dbl&gt;\n 1       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 2       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 3       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 4       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 5       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 6       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 7       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 8       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n 9       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n10       1 2022_01…    NA     1 &lt;NA&gt;        1    NA                   1800     0\n# ℹ 3,997,275 more rows\n# ℹ 4 more variables: wp &lt;dbl&gt;, passer &lt;chr&gt;, receiver &lt;chr&gt;, epa &lt;dbl&gt;"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2e.",
+    "href": "DANL 200 HW 5.html#q2e.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2e.",
+    "text": "Q2e.\n\nProvide both (1) a single ggplot and (2) a simple comment to describe the NFL weekly trend of weekly mean value of epa for each of the following two passers,\n\n\"J.Allen\"\n\"P.Mahomes\"\n\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nfiltered_data &lt;- filtered_data %&gt;%\n  mutate(week_group = cut(as.numeric(week), breaks = seq(1, max(as.numeric(week)) + 5, by = 5), include.lowest = TRUE))\nfiltered_data$week_group &lt;- factor(filtered_data$week_group, levels = unique(filtered_data$week_group))\nmean_epa_by_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\n\n`summarise()` has grouped output by 'passer'. You can override using the\n`.groups` argument.\n\nggplot(mean_epa_by_week, aes(x = week, y = mean_epa, group = passer, color = passer)) +\n  geom_line() +\n  geom_point() +\n  labs(title = \"Mean EPA Comparison for J.Allen and P.Mahomes\",\n       x = \"Week\",\n       y = \"Mean EPA\",\n       color = \"Passer\") +\n  theme_minimal()\n\n\n\n\n\nComment\n\n‘J. Allen’ and ‘P. Mahomes’ exhibit distinct patterns, and the graph provides a clear comparison of their respective performances over the weeks, highlighting any notable differences or similarities in mean EPA values.”"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2f.",
+    "href": "DANL 200 HW 5.html#q2f.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2f.",
+    "text": "Q2f.\n\nCalculate the difference between the mean value of epa for \"J.Allen\" the mean value of epa for \"P.Mahomes\" for each value of week.\n\n\nselected_passers &lt;- c(\"J.Allen\", \"P.Mahomes\")\nfiltered_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  filter(passer %in% selected_passers)\nmean_epa_by_passer_and_week &lt;- filtered_data %&gt;%\n  group_by(passer, week) %&gt;%\n  summarize(mean_epa = mean(epa, na.rm = TRUE))\n\n`summarise()` has grouped output by 'passer'. You can override using the\n`.groups` argument.\n\nwide_data &lt;- mean_epa_by_passer_and_week %&gt;%\n  pivot_wider(names_from = passer, values_from = mean_epa)\nwide_data &lt;- wide_data %&gt;%\n  mutate(epa_difference = `J.Allen` - `P.Mahomes`)\nprint(wide_data)\n\n# A tibble: 22 × 4\n    week J.Allen P.Mahomes epa_difference\n   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;          &lt;dbl&gt;\n 1     1   0.530    0.698         -0.169 \n 2     2   0.487    0.148          0.339 \n 3     3   0.169    0.246         -0.0763\n 4     4   0.191    0.271         -0.0803\n 5     5   0.627    0.302          0.325 \n 6     6   0.307    0.133          0.173 \n 7     8   0.224   NA             NA     \n 8     9  -0.208    0.0965        -0.304 \n 9    10   0.161    0.589         -0.429 \n10    11   0.192    0.365         -0.173 \n# ℹ 12 more rows"
+  },
+  {
+    "objectID": "DANL 200 HW 5.html#q2g.",
+    "href": "DANL 200 HW 5.html#q2g.",
+    "title": "DANL 200-HW5-Olson-Noah",
+    "section": "Q2g.",
+    "text": "Q2g.\n\nSummarize the resulting data.frame in Q2d, with the following four variables:\n\nposteam: String abbreviation for the team with possession.\npasser: Name of the player who passed a ball to a receiver by initially taking a three-step drop, and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks.)\nmean_epa: Mean value of epa in 2022 for each passer\nn_pass: Number of observations for each passer\n\nThen find the top 10 NFL passers in 2022 in terms of the mean value of epa, conditioning that n_pass must be greater than or equal to the third quantile level of n_pass.\n\n\nsummary_data &lt;- NFL2022_stuffs_EPA %&gt;%\n  group_by(posteam, passer) %&gt;%\n  summarize(\n    mean_epa = mean(epa, na.rm = TRUE),\n    n_pass = n(),\n    .groups = 'drop'\n  )\nquantile_threshold &lt;- quantile(summary_data$n_pass, 0.75)\ntop_passers &lt;- summary_data %&gt;%\n  filter(n_pass &gt;= quantile_threshold) %&gt;%\n  top_n(10, mean_epa)\nprint(top_passers)\n\n# A tibble: 10 × 4\n   posteam passer      mean_epa n_pass\n   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;  &lt;int&gt;\n 1 BUF     J.Brissett     0.442   4160\n 2 CAR     J.Goff         0.359   4400\n 3 CHI     J.Goff         0.475   4711\n 4 CHI     K.Cousins      0.479   4198\n 5 IND     T.Lawrence     0.324   4961\n 6 JAX     P.Mahomes      0.455   5862\n 7 LA      J.Garoppolo    0.460   4452\n 8 MIN     J.Goff         0.289   7105\n 9 SEA     B.Purdy        0.477   5351\n10 TEN     T.Lawrence     0.296   6798"
   }
 ]

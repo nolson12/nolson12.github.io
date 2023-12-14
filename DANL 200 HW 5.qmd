@@ -1,0 +1,262 @@
+---
+title: "DANL 200-HW5-Olson-Noah"
+editor: visual
+---
+
+```{r}
+#| include: false
+
+library(knitr)
+library(dplyr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+# Question 1. Personal Website on GitHub
+
+## Q1a.
+
+-   Provide a link for your Github repository <https://github.com/JaydenBalcarczyk/JaydenBalcarczyk.github.io>
+
+## Q1b.
+
+-   Make sure that your GitHub repository, named YOUR_GITHUB_USERNAME.github.io, is set to public.✅
+
+-   Update your website at https://YOUR_GITHUB_USERNAME.github.io/index.html to:
+
+-   Include links to (1) your LinkedIn page, (2) GitHub page (https://github.com/YOUR_GITHUB_USERNAME), and (3) a PDF file of your Rèsume (https://YOUR_GITHUB_USERNAME.github.io/YOUR_RESUME.pdf).✅
+
+-   Offer a description of yourself, detailing your education background and professional experience. + Display your own profile picture with your face, not the one shown below.✅
+
+## Q1c.
+
+-   Change the title of your blog.✅
+
+-   That is, to replace Insightful Analytics with your own blog name. Remove the blog posts Post With Code, Starwars, and Beer Markets.✅
+
+-   Revise the Welcome To My Blog post.✅
+
+-   Post three different blog articles based on data analysis using the following three CSV files: ✅
+
+1.  https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv
+2.  https://bcdanl.github.io/data/spotify_all.csv
+3.  https://bcdanl.github.io/data/beer_markets.csv - - Make sure that each blog post has categories and is associated with a proper image file that is displayed as a thumbnail at the list page of the blog. - Make sure that each blog post uses emojis properly. (E.g., 😄 🍺 🎶 🍕)✅
+
+-   Make sure that each blog post includes its thumbnail image and at least three ggplot figures.✅
+-   You can refer to the previous DANL 200 Homework Assignments and Exams for your blog posts.
+
+# Question 2. NFL in 2022
+
+Let's analyze the `NFL2022_stuffs` data:
+
+```{r}
+NFL2022_stuffs <- read_csv('https://bcdanl.github.io/data/NFL2022_stuffs.csv')
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(NFL2022_stuffs) 
+```
+
+## Variable Description for `NFL2022_stuffs` data.frame
+
+The following describes the variables in the `NFL2022_stuffs` data.frame.
+
+-   `play_id` Numeric play identifier that when used with `game_id` and `drive` provides the unique identifier for a single play
+
+-   `game_id` Ten digit identifier for NFL game
+
+-   `drive` Numeric drive number in the game
+
+-   `week` Season week
+
+-   `posteam` String abbreviation for the team with possession.
+
+-   `qtr` Quarter of the game (5 is overtime).
+
+-   `half_seconds_remaining` Numeric seconds remaining in the half.
+
+-   `down` The down for the given play. Basically you get four attempts (aka downs) to move the ball 10 yards (by either running with it or passing it). If you make 10 yards then you get another set of four downs.
+
+-   `pass` Binary indicator if the play was a pass play.
+
+-   `wp` Estimated winning probability for the `posteam` given the current situation at the start of the given play.
+
+## Q2a.
+
+-   In data.frame, NFL2022_stuffs, remove observations for which values of `posteam` is missing.
+
+```{r}
+NFL2022_stuffs_filtered <- NFL2022_stuffs %>% filter(!is.na(posteam))
+
+print(NFL2022_stuffs_filtered)
+```
+
+## Q2b.
+
+-   Summarize the mean value of `pass` for each `posteam` when all the following conditions hold:
+    -   `wp` is greater than 20% and less than 75%;
+    -   `down` is less than or equal to 2; and
+    -   `half_seconds_remaining` is greater than 120.
+
+```{r}
+filtered_data <- NFL2022_stuffs %>%
+  filter(
+    wp > 0.20 & wp < 0.75,
+    down <= 2,
+    half_seconds_remaining > 120
+  )
+summary_data <- filtered_data %>%
+  group_by(posteam) %>%
+  summarize(mean_pass = mean(pass, na.rm = TRUE))
+print(summary_data)
+```
+
+## Q2c.
+
+-   Provide both (1) a ggplot code with `geom_point()` using the resulting data.frame in Q2b and (2) a simple comments to describe the mean value of `pass` for each posteam.
+    -   In the ggplot, reorder the `posteam` categories based on the mean value of `pass` in ascending or in descending order.
+
+```{r}
+filtered_data <- NFL2022_stuffs %>%
+  filter(
+    wp > 0.20 & wp < 0.75,
+    down <= 2,
+    half_seconds_remaining > 120
+  )
+summary_data <- filtered_data %>%
+  group_by(posteam) %>%
+  summarize(mean_pass = mean(pass, na.rm = TRUE))
+summary_data <- summary_data %>%
+  arrange(mean_pass)
+ggplot(summary_data, aes(x = mean_pass, y = reorder(posteam, mean_pass))) +
+  geom_point() +
+  labs(title = "Mean Value of pass for Each posteam",
+       x = "Percentage of pass plays",
+       y = "Team with possession") +
+  theme_minimal()
+```
+
+-   Comment
+    -   Every NFL team falls somewhere within the .45 to .55 range. Washington runs the lowest percentage of pass plays while Cincinnati runs the highest percentage.
+
+## Q2d.
+
+-   Consider the following data.frame, `NFL2022_epa`:
+
+```{r}
+NFL2022_epa <- read_csv('https://bcdanl.github.io/data/NFL2022_epa.csv')
+```
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(NFL2022_epa) 
+```
+
+-   Variable description for `NFL2022_epa`
+
+    -   `play_id`: Numeric play identifier that when used with `game_id` and `drive` provides the unique identifier for a single play
+    -   `game_id`: Ten digit identifier for NFL game. drive: Numeric drive number in the game.
+    -   `posteam`: String abbreviation for the team with possession. passer: Name of the player who passed a ball to a receiver by initially taking a three-step drop and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks)
+    -   `receiver`: Name of the receiver.
+    -   `epa`: Expected points added (EPA) by the `posteam` for the given play.
+
+-   Create the data.frame, `NFL2022_stuffs_EPA`, that includes
+
+    1.  All the variables in the data.frame, `NFL2022_stuffs`;
+    2.  The variables, `passer`, `receiver`, and `epa`, from the data.frame, `NFL2022_epa`. by joining the two data.frames.
+
+-   In the resulting data.frame, `NFL2022_stuffs_EPA`, remove observations with NA in passer.
+
+```{r}
+NFL2022_stuffs_EPA <- left_join(NFL2022_stuffs, NFL2022_epa %>% select(game_id, passer, receiver, epa), by = "game_id")
+NFL2022_stuffs_EPA <- NFL2022_stuffs_EPA %>% filter(!is.na(passer))
+print(NFL2022_stuffs_EPA)
+```
+
+## Q2e.
+
+-   Provide both (1) a single ggplot and (2) a simple comment to describe the NFL weekly trend of `week`ly mean value of `epa` for each of the following two passers,
+    1.  `"J.Allen"`
+    2.  `"P.Mahomes"`
+
+```{r}
+selected_passers <- c("J.Allen", "P.Mahomes")
+filtered_data <- NFL2022_stuffs_EPA %>%
+  filter(passer %in% selected_passers)
+filtered_data <- filtered_data %>%
+  mutate(week_group = cut(as.numeric(week), breaks = seq(1, max(as.numeric(week)) + 5, by = 5), include.lowest = TRUE))
+filtered_data$week_group <- factor(filtered_data$week_group, levels = unique(filtered_data$week_group))
+mean_epa_by_week <- filtered_data %>%
+  group_by(passer, week) %>%
+  summarize(mean_epa = mean(epa, na.rm = TRUE))
+ggplot(mean_epa_by_week, aes(x = week, y = mean_epa, group = passer, color = passer)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Mean EPA Comparison for J.Allen and P.Mahomes",
+       x = "Week",
+       y = "Mean EPA",
+       color = "Passer") +
+  theme_minimal()
+```
+
+-   Comment
+    -   'J. Allen' and 'P. Mahomes' exhibit distinct patterns, and the graph provides a clear comparison of their respective performances over the weeks, highlighting any notable differences or similarities in mean EPA values."
+
+## Q2f.
+
+-   Calculate the difference between the mean value of `epa` for `"J.Allen"` the mean value of `epa` for `"P.Mahomes"` for each value of week.
+
+```{r}
+selected_passers <- c("J.Allen", "P.Mahomes")
+filtered_data <- NFL2022_stuffs_EPA %>%
+  filter(passer %in% selected_passers)
+mean_epa_by_passer_and_week <- filtered_data %>%
+  group_by(passer, week) %>%
+  summarize(mean_epa = mean(epa, na.rm = TRUE))
+wide_data <- mean_epa_by_passer_and_week %>%
+  pivot_wider(names_from = passer, values_from = mean_epa)
+wide_data <- wide_data %>%
+  mutate(epa_difference = `J.Allen` - `P.Mahomes`)
+print(wide_data)
+```
+
+## Q2g.
+
+-   Summarize the resulting data.frame in `Q2d`, with the following four variables:
+
+    -   `posteam`: String abbreviation for the team with possession.
+    -   `passer`: Name of the player who passed a ball to a receiver by initially taking a three-step drop, and backpedaling into the pocket to make a pass. (Mostly, they are quarterbacks.)
+    -   `mean_epa`: Mean value of epa in 2022 for each passer
+    -   `n_pass`: Number of observations for each passer
+
+-   Then find the top 10 NFL passers in 2022 in terms of the mean value of epa, conditioning that n_pass must be greater than or equal to the third quantile level of `n_pass`.
+
+```{R}
+summary_data <- NFL2022_stuffs_EPA %>%
+  group_by(posteam, passer) %>%
+  summarize(
+    mean_epa = mean(epa, na.rm = TRUE),
+    n_pass = n(),
+    .groups = 'drop'
+  )
+quantile_threshold <- quantile(summary_data$n_pass, 0.75)
+top_passers <- summary_data %>%
+  filter(n_pass >= quantile_threshold) %>%
+  top_n(10, mean_epa)
+print(top_passers)
+```
