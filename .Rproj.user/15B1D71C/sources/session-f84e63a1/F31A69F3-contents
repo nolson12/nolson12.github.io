@@ -48,10 +48,9 @@ theme_set(theme_ipsum()+
 ```
 
 # Introduction
- - Throughout the semester, we learned several ways to analyze and depict data that may seem confusing at a first glance. We found the "restaurant" data set to be a great data set to use due to the depth and complexity of the information. Looking at the code we provided to analyze the data, we used a variety of different methods to describe the data as best as possible. We started with the skim function for some general information and organization. Next, we found the average scores of the restaurants among the different boroughs. By narrowing down the important boroughs, we then created several ggplot graphs including several bar charts to visualize the information provided. After in depth analytically procedures and visualization, we came to the conclusion that Manhattan has the overall best cuisine.
-
+- 
 # Data
-- The data.frame restaurant has 10 different variables including rating, location, grades of restaurants and many more. This will help us develop analysis on what boroughs have the best restaurants and where to go when in New York City.
+- The data.frame restaurant has 10 different variables including rating, location, grades of restaurants and many more. This will help us develop analysis on what boroughs have the best restaurants and where to go when in New York City. 
 
 ## Summary Statistics
 
@@ -95,7 +94,7 @@ ggplot(average_score_by_boro, aes(x = BORO, y = Overall_AVG_SCORE, fill = BORO))
   scale_x_discrete(labels = scales::wrap_format(10))
 ```
 ## Analysis 
-- This bar chart exemplifies the relationship between each Borough in NYC on the x-axis and the overall average score on the y-axis. The average score is based on DBA (Doing Business As) entities. The overall average scores in decreasing order went as follows: Queens, Bronx, Staten Island, Brooklyn, Manhattan. Queens had the highest DBA average score of 11.2 and Manhattan had the lowest average at a score of 10.4
+
 
 
 ## Amount of `CRITICAL` `CRITICAL FLAG` by `BORO`
@@ -120,7 +119,7 @@ ggplot(critical_flags_by_boro, aes(x = BORO, y = Critical_Flag_Count, fill = BOR
   theme_minimal()
 ```
 ## Analysis
-- This bar chart compares the relationship between specific Boroughs in NYC to the total number of critical flags in those Borough. Boroughs being on the x-axis and the critical flag variable on the y-axis. The critical flag score represents the restaurants that had an indicator of critical violation. Each critical flag counts once towards the total for the Borough it is geographically located in. The order in decreasing totals was: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had the most critical flags at a total of 3464 which will be looked at later as Manhattan has a lot more restaurants than some of the others. While Staten Island had the least amount of critical flags at 333.
+
 
 
 
@@ -145,7 +144,8 @@ ggplot(a_grades_by_boro, aes(x = BORO, y = A_Grade_Count, fill = BORO)) +
   theme_minimal()
 ```
 ## Analysis
--The bar chart above represents an R code used to manipulate data as well as visualize it. This manipulation is done so to exemplify the amount of restaurants that received a grade A from their inspection and summarizes and ranks each Borough based on their total number of "A" grades. With this manipulation all other grades are voided because the only desired grade for this bar chart is "A". Boroughs are represented on the x-axis as the y-axis represents number of total Grade A inspections in the specific Borough. The ranking of Boroughs by total number of grade A's from most to least is as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had by far the most with 6382 again partially due to the sheer amount of restaurants in the Borough. Staten Island had the least amount of Grade A restaurant inspections with 645.
+
+
 
 
 ## Total number of C `GRADE` by `BORO`
@@ -176,7 +176,6 @@ ggplot(a_grades_by_boro, aes(x = BORO, y = A_Grade_Count, fill = BORO)) +
   theme_minimal()
 ```
 ## Analysis
-- A very similar example to the chart in 2.9 but instead of using data manipulation to find grade A inspection, we are looking to exemplify the inspections that received a "C" grade. The x-axis continues to represent the Boroughs of NYC and the y-axis this time represents the total number of restaurants that received a "C" grade in those Boroughs. No other grades are accounted for in this chart as they are dismissed. The ranking from most to least are as follows: Manhattan, Brooklyn, Queens, Bronx, Staten Island. Manhattan had a total of 97 which was the most and Staten Island had least amount of DBA's with a inspection grade of "C" with 5.
 
 
 ## Proportion of C `GRADE` `DBA` in each `BORO`
@@ -195,7 +194,8 @@ print(total_dbas_by_boro)
 5 / 577 * 100
 ```
 ## Analysis
-- In this section of the analysis our goal was to determine the proportion of C 'GRADE' 'DBA' in each borough. Looking at the calculations above we took the total amount of restaurants with a grade of C in each borough and divided that amount by the total number of restaurants in that borough. Using this method we were able to get an accurate percentage of how many restaurants were given a grade of C in the respective boroughs. We concluded that Staten Island had the least amount of C grade restaurants at 0.87%, while Queens had the highest percentage of C grade boroughs at 2.44%.
+
+
 
 
 ## Top 5 `DBA` in terms of `SCORE` by each `BORO`
@@ -244,7 +244,7 @@ ggplot(top_5_dbas, aes(x = reorder(DBA, AVG_SCORE), y = AVG_SCORE, fill = BORO))
 (38 + 32.5 + 31 + 30 + 28)/5
 ```
 ## Analysis
-- By filtering, summarizing, then converting the data to a ggplot, we were able to sort the highest scoring restaurants by each borough. Looking at the graph, Staten Island has the lowest scoring restaurants, the Bronx has slightly higher scoring restaurants, Queens has a mix of both middle of the pack scoring restaurants, while also having the highest scoring restaurant. Brooklyn and Manhattan both have middle to high scoring restaurants. Using the average scores we calculated the overall rating, the top rated borough is Queens with a score of 66.6 while the lowest rating is Staten Island with an average rating of 31.9.
+
 
 
 ## Top 5 `CUISINE DESCRIPTION` in each `BORO`
